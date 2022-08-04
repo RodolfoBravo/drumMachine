@@ -1,0 +1,113 @@
+$widthPan: 100px;
+$heightPan: 80px;
+
+.App {
+  text-align: center;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #80d8ff;
+}
+
+.container {
+  background-color: #01579b;
+  position: relative;
+  width: 700px;
+  outline: 5px solid #8aacc8;
+  display: flex;
+  
+
+  .pad-display {
+    width: 25rem;
+    height: 18rem;
+    display: inline-block;
+    margin: 15px;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+
+    .drum-pad {
+      position: relative;
+      float: left;
+      width: $widthPan;
+      height: $heightPan;
+      margin-right: 5px;
+      border-radius: 15px;
+      padding-top: 30px;
+      box-sizing: border-box;
+      text-align: center;
+      cursor: pointer;
+      font-size: large;
+      font-family: 'Press Start 2P', cursive;
+      
+    }
+  }
+}
+
+.container-controls {
+  width: 250px;
+  height: $heightPan * 3 + 32;
+  display: inline-block;
+  margin: 40px 20px 0 10px;
+  vertical-align: top;
+
+  .control {
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    color: white;
+    font-size: 30px;
+    width: 150px;
+    margin: auto;
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .select {
+      @extend .outer-select;
+
+      .inner {
+        @extend .inner-select;
+      }
+    }
+  }
+
+  #display {
+    width: 225px;
+    background-color: rgb(94, 139, 168);
+    margin: 15px auto;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: large;
+    font-family: 'Bungee', cursive;     
+  }
+  .volumen-slider {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 35px;
+  }
+}
+
+.outer-select {
+  margin: auto;
+  border: 1px solid rgb(78, 78, 78);
+  width: 50px;
+  height: 20px;
+  padding: 0px;
+  background-color: rgb(102, 102, 105);
+}
+
+.inner-select {
+  width: 20px;
+  height: 20px;
+  background: rgb(1, 84, 180);
+  border: 1px solid black;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
