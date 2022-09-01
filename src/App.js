@@ -6,114 +6,114 @@ import './styles.css'
 const machineConfig1 = [
   {
     codeAsci: 81,
-    triggerKey: 'Q',
-    id: 'Heater-1',
-    url: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3'
+    idKey: 'Q',
+    id: 'Guitar-1',
+    linkAudio: 'https://sampleswap.org/samples-ghost/INSTRUMENTS%20(SINGLE%20SAMPLES)/Guitars/480[kb]big-distorted-G.wav.mp3'
   },
   {
     codeAsci: 87,
-    triggerKey: 'W',
-    id: 'Heater-2',
-    url: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3'
+    idKey: 'W',
+    id: 'Guitar-2',
+    linkAudio: 'https://sampleswap.org/samples-ghost/INSTRUMENTS%20(SINGLE%20SAMPLES)/Guitars/1163[kb]clean_guitar_richchord_a.wav.mp3'
   },
   {
     codeAsci: 69,
-    triggerKey: 'E',
-    id: 'Heater-3',
-    url: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3'
+    idKey: 'E',
+    id: 'VideoGame',
+    linkAudio: 'https://sampleswap.org/samples-ghost/SOUND%20EFFECTS%20and%20NOISES/Electro%20and%20Synthetic/2285[kb]videogame-wobble-up.wav.mp3'
   },
   {
     codeAsci: 65,
-    triggerKey: 'A',
+    idKey: 'A',
     id: 'Heater-4',
-    url: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3'
+    linkAudio: 'https://sampleswap.org/samples-ghost/DRUM%20LOOPS%20and%20BREAKS/131%20to%20140%20bpm/948[kb]131_double-percussion-bigdrum-switched.wav.mp3'
   },
   {
     codeAsci: 83,
-    triggerKey: 'S',
+    idKey: 'S',
     id: 'Clap',
-    url: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3'
+    linkAudio: 'https://sampleswap.org/samples-ghost/DRUM%20LOOPS%20and%20BREAKS/131%20to%20140%20bpm/162[kb]131_electro_percussion_h.wav.mp3'
   },
   {
     codeAsci: 68,
-    triggerKey: 'D',
+    idKey: 'D',
     id: 'Open-HH',
-    url: 'https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3'
+    linkAudio: 'https://sampleswap.org/samples-ghost/DRUM%20LOOPS%20and%20BREAKS/131%20to%20140%20bpm/948[kb]131_thinpass-techno.wav.mp3'
   },
   {
     codeAsci: 90,
-    triggerKey: 'Z',
+    idKey: 'Z',
     id: "Kick-n'-Hat",
-    url: 'https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3'
+    linkAudio: 'https://sampleswap.org/samples-ghost/DRUM%20LOOPS%20and%20BREAKS/131%20to%20140%20bpm/161[kb]132_fastfilter_hats.wav.mp3'
   },
   {
     codeAsci: 88,
-    triggerKey: 'X',
+    idKey: 'X',
     id: 'Kick',
-    url: 'https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3'
+    linkAudio: 'https://sampleswap.org/samples-ghost/DRUM%20LOOPS%20and%20BREAKS/131%20to%20140%20bpm/161[kb]132_jumpy_house.wav.mp3'
   },
   {
     codeAsci: 67,
-    triggerKey: 'C',
+    idKey: 'C',
     id: 'Closed-HH',
-    url: 'https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3'
+    linkAudio: 'https://sampleswap.org/samples-ghost/DRUM%20LOOPS%20and%20BREAKS/131%20to%20140%20bpm/160[kb]132_telephone-beat.wav.mp3'
   }
 ];
 
 const machineConfig2 = [
   {
     codeAsci: 81,
-    triggerKey: 'Q',
+    idKey: 'Q',
     id: 'Chord-1',
-    url: 'https://s3.amazonaws.com/freecodecamp/drums/Chord_1.mp3'
+    linkAudio: 'https://s3.amazonaws.com/freecodecamp/drums/Chord_1.mp3'
   },
   {
     codeAsci: 87,
-    triggerKey: 'W',
+    idKey: 'W',
     id: 'Chord-2',
-    url: 'https://s3.amazonaws.com/freecodecamp/drums/Chord_2.mp3'
+    linkAudio: 'https://s3.amazonaws.com/freecodecamp/drums/Chord_2.mp3'
   },
   {
     codeAsci: 69,
-    triggerKey: 'E',
+    idKey: 'E',
     id: 'Chord-3',
-    url: 'https://s3.amazonaws.com/freecodecamp/drums/Chord_3.mp3'
+    linkAudio: 'https://s3.amazonaws.com/freecodecamp/drums/Chord_3.mp3'
   },
   {
     codeAsci: 65,
-    triggerKey: 'A',
+    idKey: 'A',
     id: 'Shaker',
-    url: 'https://s3.amazonaws.com/freecodecamp/drums/Give_us_a_light.mp3'
+    linkAudio: 'https://s3.amazonaws.com/freecodecamp/drums/Give_us_a_light.mp3'
   },
   {
     codeAsci: 83,
-    triggerKey: 'S',
+    idKey: 'S',
     id: 'Open-HH',
-    url: 'https://s3.amazonaws.com/freecodecamp/drums/Dry_Ohh.mp3'
+    linkAudio: 'https://s3.amazonaws.com/freecodecamp/drums/Dry_Ohh.mp3'
   },
   {
     codeAsci: 68,
-    triggerKey: 'D',
+    idKey: 'D',
     id: 'Closed-HH',
-    url: 'https://s3.amazonaws.com/freecodecamp/drums/Bld_H1.mp3'
+    linkAudio: 'https://s3.amazonaws.com/freecodecamp/drums/Bld_H1.mp3'
   },
   {
     codeAsci: 90,
-    triggerKey: 'Z',
+    idKey: 'Z',
     id: 'Punchy-Kick',
-    url: 'https://s3.amazonaws.com/freecodecamp/drums/punchy_kick_1.mp3'
+    linkAudio: 'https://s3.amazonaws.com/freecodecamp/drums/punchy_kick_1.mp3'
   },
   {
     codeAsci: 88,
-    triggerKey: 'X',
+    idKey: 'X',
     id: 'Side-Stick',
-    url: 'https://s3.amazonaws.com/freecodecamp/drums/side_stick_1.mp3'
+    linkAudio: 'https://s3.amazonaws.com/freecodecamp/drums/side_stick_1.mp3'
   },
   {
     codeAsci: 67,
-    triggerKey: 'C',
+    idKey: 'C',
     id: 'Snare',
-    url: 'https://s3.amazonaws.com/freecodecamp/drums/Brk_Snr.mp3'
+    linkAudio: 'https://s3.amazonaws.com/freecodecamp/drums/Brk_Snr.mp3'
   }
 ];
 
@@ -139,16 +139,16 @@ class PadButtons extends React.Component {
       stylePad: styleInactive
     };
     this.playSound = this.playSound.bind(this);
-    this.handlePressKey = this.handlePressKey.bind(this);
+    this.handlePressButton = this.handlePressButton.bind(this);
     this.activateButton = this.activateButton.bind(this);
   }
   componentDidMount() {
-    document.addEventListener('keydown', this.handlePressKey)
+    document.addEventListener('keydown', this.handlePressButton)
   }
   componentWillUnmount() {
-    document.removeEventListener('keydown', this.handlePressKey)
+    document.removeEventListener('keydown', this.handlePressButton)
   }
-  handlePressKey(event) {
+  handlePressButton(event) {
     if (event.keyCode === this.props.codeKey) {
       this.playSound();
     }
@@ -179,7 +179,7 @@ class PadButtons extends React.Component {
     }
   }
   playSound() {
-    const sound = document.getElementById(this.props.triggerKey);
+    const sound = document.getElementById(this.props.idKey);
     sound.currentTime = 0;
     sound.play();
     this.activateButton();
@@ -194,10 +194,10 @@ class PadButtons extends React.Component {
         onClick={this.playSound}
         style={this.state.stylePad}>
         <audio className='clip'
-          id={this.props.triggerKey}
+          id={this.props.idKey}
           src={this.props.audio}>
         </audio>
-        {this.props.triggerKey}
+        {this.props.idKey}
       </div>
     );
   }
@@ -215,10 +215,10 @@ class PadDisplay extends React.Component {
       padDisplay = this.props.currentPadDisplay.map((ObjTemp, i, padDisplayArray) => {
         return (
           <PadButtons
-            audio={padDisplayArray[i].url}
+            audio={padDisplayArray[i].linkAudio}
             idAudio={padDisplayArray[i].id}
             codeKey={padDisplayArray[i].codeAsci}
-            triggerKey={padDisplayArray[i].triggerKey}
+            idKey={padDisplayArray[i].idKey}
             power={this.props.power}
             refresh={this.props.refresh}
 
@@ -231,7 +231,7 @@ class PadDisplay extends React.Component {
           <PadButtons
             audio='#'
             idAudio={padDisplayArray[i].id}
-            triggerKey={padDisplayArray[i].triggerKey}
+            idKey={padDisplayArray[i].idKey}
             power={this.props.power}
             refresh={this.props.refresh}
           />
@@ -344,13 +344,6 @@ class App extends React.Component {
               <p>Power</p>
               <div className='select' onClick={this.powerControl}>
                <div className='inner' style={selectPower} />
-                {/*<div class='toggle-switch'>
-                  <label>
-                    <input type='checkbox' />
-                    <span class='slider'></span>
-                  </label>
-
-                </div>*/}
               </div>
             </div>
             <p id='display'>{this.state.display_status}</p>
